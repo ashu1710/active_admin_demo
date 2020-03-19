@@ -24,6 +24,7 @@ GEM
       erubis (~> 2.7.0)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    active_admin_theme (1.1.1)
     activeadmin (2.4.0)
       arbre (~> 1.2, >= 1.2.1)
       formtastic (~> 3.1)
@@ -52,10 +53,6 @@ GEM
       tzinfo (~> 1.1)
     arbre (1.2.1)
       activesupport (>= 3.0.0)
-    arctic_admin (3.1.1)
-      activeadmin (>= 1.1.0, < 3.0)
-      font-awesome-sass (~> 5.0)
-      jquery-rails
     arel (7.1.4)
     babel-source (5.8.35)
     babel-transpiler (0.7.0)
@@ -85,8 +82,6 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.12.2)
-    font-awesome-sass (5.12.0)
-      sassc (>= 1.11)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
@@ -234,8 +229,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_admin_theme
   activeadmin
-  arctic_admin
   byebug
   coffee-rails (~> 4.1.0)
   devise (~> 4.2)
