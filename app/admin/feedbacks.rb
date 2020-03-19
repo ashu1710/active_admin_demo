@@ -6,6 +6,10 @@ ActiveAdmin.register Feedback do
   # Uncomment all parameters which should be permitted for assignment
   #
   permit_params :msg
+
+  schema do
+    required(:msg).filled(:str?)
+  end
   #
   # or
   #
